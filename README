@@ -1,0 +1,11 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2365
+
+Veratags is a cool utility(available at http://webpages.charter.net/jeffkoehler/jeffkoehler_com/tools/veratags/veratags.html)
+It can create an ascii hierachy of ur design and creates tag for the verilog files as well.
+Use this script(hierarchy.vim) to know the current scope (based on where ur cursor is) in the 
+info.txt file
+
+You may want set ur status line to
+set statusline=%{Verilog_get_hierarchy()}
+
+Please update the file as per ur convenience, I am new to vim programming so might have done a buggy coding
